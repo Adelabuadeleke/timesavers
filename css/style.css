@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+}
+
+ul{
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.icons>img {
+    margin-right: 5px;
+}
+
+header {
+    color: white;
+    height: 100vh;
+    background: url('../img/Rectangle 43.png');
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+}
+
+.first> h1 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 57px;
+    line-height: 72px;
+    letter-spacing: -0.01em;
+    width: 300px;
+}
+
+.first>p{
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.first>button{
+    width: 156px;
+    height: 58px;
+    background: #022569;
+    color: white;
+    border: 1px solid #022569;
+}
+
+.down_img > img {
+    margin-top: 20px;
+}
+
+.third>p {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.selling h2 {
+    text-align: center;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.item {
+    width: 350px;
+    margin: 20px;
+}
+.desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.deals>h2 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.deals_img {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+}
+
+.deal_first>img{
+    width: 500px;
+    height: 510px;
+    margin: 5px;
+}
+
+.deal_second>img {
+    width: 500px;
+    height: 250px;
+    margin: 5px;
+}
+
+.deal_second {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.testimonials>p {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 76px;
+    letter-spacing: 0.19em;
+    color: #022569;
+    text-align: center;
+}
+
+.testimonials>h2 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 76px;
+    text-align: center;
+    /* identical to box height, or 190% */
+
+    letter-spacing: -0.02em;
+}
+
+.testimonial_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.testimonial_item>img {
+    height: 350px;
+}
+.rev_person {
+    display: flex;
+    align-items: center;
+}
+
+.rev_person>img {
+    margin-right: 10px;
+}
+
+.review {
+    background: #FFF2C7;
+    padding: 40px;
+}
+
+.rev_btns {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+
+.rev_btns>button {
+    width: 51px;
+    height: 51px;
+    left: 0px;
+    top: 0px;
+    background: #112B5F;
+    border: 1px solid #112B5F;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    background-color: #112B5F;
+}
